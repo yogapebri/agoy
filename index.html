@@ -4,52 +4,47 @@
     <meta charset="UTF-8" />  
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
     <title>Home</title>  
-    <link rel="stylesheet" href="Home.css" />  
+    <link rel="stylesheet" href="home.css" />  
+    
     <!-- Firebase -->  
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>  
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>  
+    
     <!-- Icon -->  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />  
+    
     <!-- Font -->  
     <link rel="preconnect" href="https://fonts.googleapis.com" />  
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />  
     <link  
-      href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap"  
-      rel="stylesheet"  
+        href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap"  
+        rel="stylesheet"  
     />  
 </head>  
 <body>  
-    
+    <!-- Indikator 1 -->  
+    <div class="Indikator">  
+        <div id="circle2"></div>  
+        <p id="TextIndikator">Lampu Mati</p>  
+    </div>  
 
-    <!-- Indikator -->  
-        <div class="Indikator">  
-          <div id="circle2"></div>  
-          <p id="TextIndikator">Lampu Mati</p>  
-        </div>  
-      </div>  
-    <!-- Indikator2 -->  
+    <!-- Indikator 2 -->  
     <div class="Indikator">  
         <div id="circle22"></div>  
         <p id="TextIndikator2">Kipas Mati</p>  
-      </div>  
     </div>  
 
-
-    <!-- BUTTON -->  
+    <!-- Button Controls -->  
     <div class="buttonContainer">  
-      <button id="ON" class="button"><i class="fas fa-power-off"></i></button>  
-      <button id="OFF" class="button"><i class="fas fa-power-off"></i></button>  
+        <button id="ON" class="button"><i class="fas fa-power-off"></i></button>  
+        <button id="OFF" class="button"><i class="fas fa-power-off"></i></button>  
     </div>  
 
-    <!-- BUTTON -->  
     <div class="buttonContainerr">  
         <button id="ONn" class="button"><i class="fas fa-power-off"></i></button>  
         <button id="OFFf" class="button"><i class="fas fa-power-off"></i></button>  
-      </div> 
-      
-    
+    </div>  
 
-    
-    <script src="Home.js"></script>  
+    <script src="home.js"></script>  
 </body>  
 </html>
